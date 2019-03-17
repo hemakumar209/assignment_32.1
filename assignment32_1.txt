@@ -1,0 +1,34 @@
+1. Import the Super store excel data into MySQL and store the data across three tables orders, people and returns
+2. Connect Tableau Desktop to MySQL database
+3. Import the joined data set of the aforesaid three tables through custom SQL
+4. Rename the data connection as ‘my super store data’
+5. Create an extract out of the data connection
+6. Save the workbook as Super store dashboard.twbx
+
+Steps:
+
+1 Download the sample super stores.
+
+2 The file consists of three sheets namely orders, returns and people.
+
+3 Save each sheet as comma delimited CSV files.
+
+4 Open MySQL workbench and login to the same.
+
+5 Create a "superstore" schema
+
+6 From "superstore" schema import the individual sheets namely orders, returns and people.
+
+7 Check the database and tables are imported under SCHEMAS > superstore > Tables > orders, people and returns tables will be imported with records.
+
+8 Connect to Tableau Desktop and open connection
+
+9 Select My SQL connection and import the global superstores
+
+10 Drag orders, people and returns tables to the Tableau worksheet & create inner join.
+
+11 Update and connect to the extract from live connection.
+
+12 Rename the file as "my super store data"
+
+13 Create and extract connection and save the work book as 'Super store dashboard.twbx" file in the appropriate location.
